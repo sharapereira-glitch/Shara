@@ -1,4 +1,16 @@
-/* Selecionamos a classe .cartao que criamos no HTML */
+
+.cartao {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+    /* 🛠️ AQUI ESTÁ O SEU DESAFIO! Altere estes valores: */
+    width: 250px;          /* Tente mudar para 200px ou 260px */
+    padding: 20px;         /* Tente mudar para 15px 25px */
+    
+    /* Centraliza o conteúdo dentro do cartão */
+    text-align: center;
+}
 .cartao {
     background-color: #ffffff;
     border-radius: 10px;
@@ -14,6 +26,21 @@
     font-family: Arial, sans-serif;
 }
 
+/* Estilo extra para a imagem e o botão ficarem bonitos */
+.foto {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
 /* Estilo extra para a imagem e o botão ficarem bonitos */
 .foto {
     width: 100px;
